@@ -1,3 +1,2 @@
 # action_android_build
-android CI
-action编译Android并上传
+A workflow for building Android APKs, updated to Debian 12
