@@ -8,7 +8,7 @@ inputs:
   GITHUB_TOKEN:
     description: "Github secret token to allow automated publishing of APK to release."
   CI_TOKEN:
-    description: "GitLab CI token"
+    description: "CI token"
   APP_NAME:
     description: "App Name"
   TYPEPACKAGE:
