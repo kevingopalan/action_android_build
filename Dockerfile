@@ -1,4 +1,4 @@
-FROM debian:10.1
+FROM debian:12.0
 
 
 RUN apt update \
