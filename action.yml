@@ -1,18 +1,18 @@
-name: "Android Apk CI"
+name: "Android APK builder"
 branding:
   icon: "package"
   color: "red"
-description: "Build & Publish Debug APK on Github"
-author: "yuanjinsong"
+description: "Build & Publish a Debug APK on Github"
+author: "kevingopalan"
 inputs:
   GITHUB_TOKEN:
     description: "Github secret token to allow automated publishing of APK to release."
   CI_TOKEN:
-    description: "蒲公英平台的token"
+    description: "GitLab CI token"
   APP_NAME:
-    description: "app打包后的名字"
+    description: "App Name"
   TYPEPACKAGE:
-    description: "打包的种类"
+    description: "Package Type"
 runs:
   using: "docker"
   image: "Dockerfile"
